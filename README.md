@@ -1,5 +1,5 @@
-# Jenkins-plugin
-Convertigo-ci plugin is able to integrate Convertigo Mobility Platform projects in a
+# convertigo-mobile-platform-plugin
+Convertigo mobile platform plugin is able to integrate Convertigo Mobility Platform projects in a
 Continuous Integration process. The plugin can build, deploy and test Convertigo
 Mobility platform projects and generate JUnit format XML test reports to be handled
 by Jenkins.
