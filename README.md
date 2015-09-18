@@ -7,5 +7,5 @@ by Jenkins.
 Projects can pulled out from SCM and automatically built by this plugin.
 The plugin also enables testing by calling Convertigo's test cases and checking the results.
 
-See documentation in http://www.convertigo.com/technicalblog/
+See documentation in http://www.convertigo.com/jenkins-plugin/
 
