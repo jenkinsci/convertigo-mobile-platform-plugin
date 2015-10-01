@@ -55,14 +55,14 @@ import com.google.common.collect.ImmutableList;
  *
  * <p>
  * When the user configures the project and enables this builder,
- * {@link DescriptorImpl#newInstance(StaplerRequest)} is invoked and a new
- * {@link HelloWorldBuilder} is created. The created instance is persisted to
+ * DescriptorImpl#newInstance(StaplerRequest) is invoked and a new
+ * HelloWorldBuilder is created. The created instance is persisted to
  * the project configuration XML by using XStream, so this allows you to use
- * instance fields (like {@link #name}) to remember the configuration.
+ * instance fields (like @link #name) to remember the configuration.
  *
  * <p>
  * When a build is performed, the
- * {@link #perform(AbstractBuild, Launcher, BuildListener)} method will be
+ * #perform(AbstractBuild, Launcher, BuildListener) method will be
  * invoked.
  *
  * @author convertigo
@@ -297,7 +297,7 @@ public class DeploymentBuilder extends Builder {
 	}
 
 	/**
-	 * Descriptor for {@link HelloWorldBuilder}. Used as a singleton. The class
+	 * Descriptor for . Used as a singleton. The class
 	 * is marked as public so that it can be accessed from views.
 	 *
 	 * <p>
@@ -343,7 +343,7 @@ public class DeploymentBuilder extends Builder {
 		/**
 		 * Performs on-the-fly validation of the form field 'name'.
 		 *
-		 * @param value
+		 * @param url
 		 *            This parameter receives the value that the user has typed.
 		 * @return Indicates the outcome of the validation. This is sent to the
 		 *         browser.
